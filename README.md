@@ -19,7 +19,7 @@ DeepMood is a cutting-edge, AI-powered sentiment analysis tool that provides rea
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/deepmood.git
+   git clone https://github.com/LF3551/DeepMood-AI-Powered-Sentiment-Insights.git
    cd deepmood
    ```
 2. Navigate to the backend directory and install dependencies:
