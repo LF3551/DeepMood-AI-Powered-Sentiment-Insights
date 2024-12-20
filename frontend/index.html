@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepMood: AI-Powered Sentiment Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-brain"></i> DeepMood: AI-Powered Sentiment Insights</h1>
+            <p class="subtitle">Анализируйте эмоциональный окрас текста с помощью ИИ</p>
+        </header>
+        
+        <main>
+            <div class="analysis-form">
+                <div class="input-container">
+                    <textarea 
+                        id="textInput" 
+                        placeholder="Введите текст для анализа..."
+                        rows="5"
+                    ></textarea>
+                    <div class="char-counter">0 символов</div>
+                </div>
+                <button id="analyzeBtn">
+                    <i class="fas fa-search"></i> Анализировать
+                </button>
+            </div>
+            
+            <div class="result-container" id="result">
+                <!-- Результаты будут отображаться здесь -->
+            </div>
+
+            <div class="examples">
+                <h3>Примеры текстов для анализа:</h3>
+                <div class="example-buttons">
+                    <button class="example-btn" data-text="Я очень доволен этим продуктом!">Позитивный пример</button>
+                    <button class="example-btn" data-text="Это был ужасный опыт.">Негативный пример</button>
+                    <button class="example-btn" data-text="Сегодня обычный день.">Нейтральный пример</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Создано с <i class="fas fa-heart"></i> и AI</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
